@@ -1,0 +1,31 @@
+Font: Calibri
+Font_Size: 18
+Word_Result_Suffix: _result
+BarChart_RotatedTable: False
+PieChart_RotatedTable: True
+LineChart_RotatedTable: False
+Barchart_CC_Name: bar_chart
+Piechart_CC_Name: pie_chart
+Linechart_CC_Name: line_chart
+Hybridtable_CC_Name: raw_table_rows_v2
+Table_Row_CC_Name: raw_table_rows
+Table_Column_CC_Name: raw_table_columns
+Content_CC_Name: content
+SQL_CC_Name: selectrows
+RepeatContent_CC_Name: rcontent
+Repeat_CC_Name: repeat
+Repeat_SQL_Name: selectrepeatingdata
+Value_CC_name: selectvalue
+Repeat_Value_CC_Name: selectvalue
+Place_Holder_Name: dummyvalue
+Image_CC_Name: picture
+NoDataFound_Message: No data found
+Connection_String: Data Source=.;Initial Catalog = ServiceManagement; Integrated Security = True
+Dummy_Table_Name: queryTable
+Use_Default_Table_Name: False
+Cell_color_properties_with_Text: {
+  "critical": "e03838",
+  "high": "ff570a",
+  "medium": "eeff00",
+  "low": "e2ffc9"
+}

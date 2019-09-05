@@ -1,0 +1,258 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+
+
+<!-- Breadcrumbs-->
+
+
+<ol class="breadcrumb">
+    @ViewBag.Message
+    <li class="breadcrumb-item" align="center">
+        <label class="control-label">Service Name</label>
+        <div class="input-group col-sm-12">
+            <span class="input-group-addon"></span>
+            @*<input type="text" class="form-control" id="new_serviceName" name="new_serviceName" >*@
+            @Html.TextBox("serviceName", "", new { required = "", @style = "width:300px" })
+        </div>
+    </li>
+</ol>
+<!-- Example DataTables Card-->
+
+
+
+<div class="card mb-3">
+    <div class="card-header" align="center">
+
+        <label class="control-label">Upload Word Template</label>
+        <div class="input-group col-sm-4">
+            <span class="input-group-addon"></span>
+            @Html.TextBox("fileWord", "", new { type = "file", @class = "form-control", accept = ".doc, .docx", required = "" })
+        </div>
+
+
+        <label class="control-label">Upload CSV file</label>
+        <div class="input-group col-sm-4">
+            <span class="input-group-addon"></span>
+            @*<input type="file" accept=".csv" class="form-control" id="csvFile" name="csvFile" required>*@
+            @Html.TextBox("csvFile", "", new { type = "file", @class = "form-control", accept = ".csv", required = "" })
+
+        </div>
+    </div>
+    <div class="card-body" align="center">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="csvDataTable">
+                <tr align="center">
+                    <th align="center" width="25%">.No</th>
+                    <th align="center" width="25%">Heading</th>
+                    <th align="center" width="25%">Mapping</th>
+                    <th align="center" width="25%">Length</th>
+                </tr>
+                <tbody id="table-content-from-file"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer" align="right">
+        <button id="btnSubmit" type="submit" class="btn btn-info"><i class="fa fa-check"></i>Add service</button>
+    </div>
+</div>
+
+
+
+@* Read CSV file *@
+<script type="text/javascript">
+    function readCSV(file, onReadDone) {
+        reader = new FileReader();
+
+        reader.onload = function (fileResult) {
+            var rawRows = fileResult.target.result.split("\n");
+
+            var heading = rawRows[0].split(",");
+            var rows = new Array();
+
+            for (var i = 1; i < rawRows.length; i++) {
+                row = rawRows[i].split(",");
+                rows.push(row);
+            }
+
+            onReadDone(heading, rows);
+        }
+
+        reader.readAsText(file);
+    }
+</script>
+
+@* Render table *@
+<script type="text/javascript">
+    function renderTableView(headings, rows) {
+        var html = '';
+
+        for (var i = 0; i < headings.length; i++) {
+            html += '<tr><td align="center">' + (i + 1) + '</td>';
+            html += '<td align="center">' + headings[i] + '</td>';
+            html += '<td align="center" required="" contenteditable>' + headings[i] + '</td>';
+            html += '<td align="center"  contenteditable="" >500</td></tr>';
+        }
+
+        return html;
+    }
+
+    function setViewForTable(html) {
+        var tableContentId = 'table-content-from-file';
+
+        tableContent = document.getElementById(tableContentId);
+        tableContent.innerHTML = "";
+        tableContent.innerHTML = html;
+    }
+
+    function onReadCSVDone(headings, rows) {
+        setViewForTable(renderTableView(headings, rows));
+    }
+
+    document.getElementById('csvFile').onchange = function () {
+        var file = document.querySelector('#csvFile').files[0];
+
+        if (file === "")
+            return;
+        else
+            readCSV(file, onReadCSVDone);
+    };
+</script>
+
+@* check special characters *@
+<script type="text/javascript">
+
+    function checkForSpecialChar(string) {
+        var specialChars = "<>!#$%^&*()_+[]{}?:;|'\"\\,./~`-=";
+        for (i = 0; i < specialChars.length; i++) {
+            if (string.indexOf(specialChars[i]) > -1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+</script>
+
+<script type="text/javascript">
+    function saveWordTemplate() {
+        var formData = new FormData();
+        var serviceName = $("#serviceName").val();
+        formData.append("serviceName", serviceName);
+        var file = document.getElementById('fileWord').files[0];
+        formData.append("fileWord", file);
+
+        $.ajax({
+            type: 'POST',
+            url: '/Home/SaveWordTemplate',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+
+        });
+    }
+
+    function saveServiceAndHeading() {
+        var formData = new FormData();
+        var serviceName = $("#serviceName").val();
+        formData.append("serviceName", serviceName);
+
+        var headingList = [];
+        var mappingList = [];
+        var lengthList = [];
+        var mapping = null;
+        var lengh = null;
+
+        var table = document.getElementById("csvDataTable");
+        for (var i = 1; i < table.rows.length; i++) {
+            headingList.push(table.rows[i].cells[1].textContent);
+            mapping = table.rows[i].cells[2].textContent;
+
+            if (/^\d/.test(mapping)) {
+                alert("Invalid! Mapping can not begin with a number");
+                return;
+            }
+            if (mapping.indexOf(' ') >= 0) {
+                alert("Invalid! Mapping can not have whitespace");
+                return;
+            }
+            if (checkForSpecialChar(mapping)) {
+                alert("Invalid! Mapping can not have special characters");
+                return;
+            }
+
+            var index = mappingList.indexOf(mapping);
+            if (index !== -1) {
+                alert("Duplicated mapping: " + mapping);
+                return;
+            }
+
+            mappingList.push(mapping);
+            lengh = table.rows[i].cells[3].textContent;
+            if (isNaN(lengh) || lengh === "" || lengh === null || lengh.indexOf(' ') >= 0) {
+                alert("Error! Length must be a numeric value!");
+                return;
+            }
+            lengthList.push(Number(lengh));
+        }
+
+        for (var i = 0; i < headingList.length; i++) {
+            formData.append("headingList", headingList[i]);
+            formData.append("mappingList", mappingList[i]);
+            formData.append("lengthList", lengthList[i]);
+        }
+
+
+        $.ajax({
+            type: 'POST',
+            url: '/Home/SaveServiceAndHeading',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                if (data) {
+                    alert("Successful!");
+                }
+                else alert("Failed!");
+
+            }
+
+        });
+    }
+
+</script>
+
+<script type="text/javascript">
+    document.getElementById('btnSubmit').onclick = function () {
+        var serviceName = $("#serviceName").val();
+
+        //check null input
+        if (serviceName === "") {
+            alert("Please enter service name");
+            return;
+        }
+
+        var w = document.querySelector('#fileWord').files[0];
+        if (w == null) {
+            alert("Please enter word template");
+            return;
+        }
+
+        var c = document.querySelector('#csvFile').files[0];
+
+        if (c == null) {
+            alert("Please enter csv file");
+            return;
+        }
+
+        saveServiceAndHeading();
+        saveWordTemplate();
+    }
+</script>
+
+
+
+

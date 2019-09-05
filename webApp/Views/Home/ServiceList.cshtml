@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewBag.Title = "ServiceList";
+}
+
+<div class="card mb-3" align="center">
+    <div class="card-header" align="center">
+        <label class="control-label"> Service List</label>
+        <select class="input-group col-sm-4" name="" id="selectedService">
+            @foreach (var s in ViewBag.serviceList)
+            {
+                <option value="@s.id">@s.serviceName</option>
+            }
+
+        </select>
+    </div>
+
+    <div class="card-header" align="center">
+        <label class="control-label" align="center"> Upload CSV file </label>
+        <div class="input-group col-sm-4">
+            <span class="input-group-addon"></span>
+            <input align="center" type="file" accept=".csv" class="form-control" id="csvFile" name="csvFile">
+        </div>
+
+        <label class="control-label" align="center"> Table Name </label>
+        <div class="input-group col-sm-4">
+            <span class="input-group-addon"></span>
+            @Html.TextBox("tableName", "", new { required = "", @style = "width:350px" })
+        </div>
+        <img id="loading" src="~/Content/images/ajax-loader.gif" alt="" style="display: none;"/>
+    </div>
+
+    <div class="card-footer">
+        <button id="btnGenerate" type="submit" class="btn btn-info"><i class="fa fa-check"></i>Generate</button>
+        <button id="btnDelete" type="submit" class="btn btn-danger"><i class="fa  fa-trash  fa-fw"></i>Delete</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.getElementById('btnDelete').onclick = function () {
+
+        var confirmation = confirm("Do you want to remove the service?");
+        if (confirmation) {
+            var serviceID = Number($("#selectedService").val());
+            var formData = new FormData();
+            formData.append("serviceID", serviceID);
+                
+            $.ajax({
+                type: 'POST',
+                url: '/Home/DeleteService',
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if (data>0) {
+                        alert(" Delete successfully!");
+                    }
+                    else {
+                        alert("Failed!");
+                    }
+                }
+            });
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    document.getElementById('btnGenerate').onclick = function () {
+
+        var serviceID = Number($("#selectedService").val());
+        var formData = new FormData();
+        formData.append("serviceID", serviceID);
+
+        var file = document.getElementById('csvFile').files[0];
+        if (file == null) {
+            alert("Please enter csv file");
+            return;
+        }
+        formData.append("csvFile", file);
+
+        // Check tableName
+        var tableName = $("#tableName").val();
+        if (tableName === "") {
+            alert("Please enter tableName");
+            return;
+        }
+        if (/^\d/.test(tableName)) {
+            alert("Invalid! TableName can not begin with a number");
+            return;
+        }
+        if (tableName.indexOf(' ') >= 0) {
+            alert("Invalid! TableName can not have whitespace");
+            return;
+        }
+        if (checkForSpecialChar(tableName)) {
+            alert("Invalid! TableName can not have special characters");
+            return;
+        }
+
+        formData.append("tableName", tableName);
+
+        $('#loading').show()
+        $.ajax({
+            type: 'POST',
+            url: '/Home/CSVData',
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                $('#loading').hide()
+                if (data.success) {
+                    alert("Success");
+                    window.location.href = "@Url.RouteUrl(new 
+                    { Controller = "Home", Action = "Download"})/?file=" + data.fileName;
+                }
+                else {
+                    alert(data.errorMessage);
+                }
+            }
+        });
+    }
+</script>
+
+@* check special characters *@
+<script type="text/javascript">
+    function checkForSpecialChar(string) {
+        var specialChars = "<>!#$%^&*()_+[]{}?:;|'\"\\,./~`-=";
+        for (i = 0; i < specialChars.length; i++) {
+            if (string.indexOf(specialChars[i]) > -1) {
+                return true;
+            }
+        }
+        return false;
+    }
+</script>
+
+
+
+

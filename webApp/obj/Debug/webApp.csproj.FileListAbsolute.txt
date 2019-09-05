@@ -1,0 +1,258 @@
+C:\Users\Admin\Downloads\webApp\webApp\bin\ApplicationInsights.config
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\webApp\webApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\webApp\webApp\bin\webApp.dll.config
+C:\Users\Admin\Downloads\webApp\webApp\bin\webApp.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\webApp.pdb
+C:\Users\Admin\Downloads\webApp\webApp\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\EntityFramework.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Owin.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\WebGrease.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\webApp\webApp\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\EntityFramework.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Downloads\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Downloads\webApp\webApp\obj\Debug\webApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\webApp\webApp\obj\Debug\webApp.dll
+C:\Users\Admin\Downloads\webApp\webApp\obj\Debug\webApp.pdb
+C:\Users\Admin\Downloads\webApp\webApp\bin\WordTemplate.exe
+C:\Users\Admin\Downloads\webApp\webApp\bin\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Downloads\webApp\webApp\bin\WordTemplate.pdb
+C:\Users\Admin\Downloads\webApp\webApp\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\ApplicationInsights.config
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\webApp.dll.config
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\webApp.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\webApp.pdb
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Owin.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\WebGrease.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\WordTemplate.exe
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\WordTemplate.pdb
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\bin\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\obj\Debug\webApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\obj\Debug\webApp.dll
+C:\Users\Admin\Desktop\hpt-dev-project_062018\webApp\webApp\obj\Debug\webApp.pdb
+F:\HPT Works\DevProject\webApp\webApp\bin\ApplicationInsights.config
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\csc.exe
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\System.Collections.Immutable.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\vbc.exe
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\VBCSCompiler.exe
+F:\HPT Works\DevProject\webApp\webApp\bin\roslyn\VBCSCompiler.exe.config
+F:\HPT Works\DevProject\webApp\webApp\bin\webApp.dll.config
+F:\HPT Works\DevProject\webApp\webApp\bin\webApp.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\webApp.pdb
+F:\HPT Works\DevProject\webApp\webApp\bin\Antlr3.Runtime.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\EntityFramework.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\EntityFramework.SqlServer.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.Agent.Intercept.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.DependencyCollector.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.Web.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.WindowsServer.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.ApplicationInsights.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Google.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Web.Infrastructure.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Newtonsoft.Json.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\Owin.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Helpers.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Mvc.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Optimization.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Razor.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.Deployment.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.Razor.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\WebGrease.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\WordTemplate.exe
+F:\HPT Works\DevProject\webApp\webApp\bin\DocumentFormat.OpenXml.dll
+F:\HPT Works\DevProject\webApp\webApp\bin\WordTemplate.pdb
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.DependencyCollector.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.Web.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AI.WindowsServer.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.ApplicationInsights.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Newtonsoft.Json.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Helpers.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Mvc.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Optimization.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.Razor.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.Deployment.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\System.Web.WebPages.Razor.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Antlr3.Runtime.pdb
+F:\HPT Works\DevProject\webApp\webApp\bin\EntityFramework.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\EntityFramework.SqlServer.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Facebook.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Google.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.Twitter.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\HPT Works\DevProject\webApp\webApp\bin\DocumentFormat.OpenXml.xml
+F:\HPT Works\DevProject\webApp\webApp\obj\Debug\webApp.csprojResolveAssemblyReference.cache
+F:\HPT Works\DevProject\webApp\webApp\obj\Debug\webApp.dll
+F:\HPT Works\DevProject\webApp\webApp\obj\Debug\webApp.pdb
